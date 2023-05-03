@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>Encriptar/Desencriptar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img class="logo" src="img/Vector.png">
+
+  <main class="main">
+    <section class="form box">
+        <textarea class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui"></textarea>
+        <p class="texto">Solo letras minúsculas y sin acentos.</p>
+        <img class="signo" src="img/Admiracion.png">
+      </form>
+    </section>
+    <div class="botones">
+      <button class="btn-encriptar" id="btn-encriptar">Encriptar</button>
+      <button class="btn-desencriptar" id="btn-desencriptar">Desencriptar</button>
+    </div>
+    <div id="monito" class="cuadrotexto">
+      <img class="buscando" src="img/personaje.png">
+      <p class="noencuentra">No se muestra ningun mensaje</p>
+     </div>
+    <section class="msg box">
+      <textarea class="text-input-salida" type="text" id="msg" readonly></textarea>
+      <button class="btn-copy" id="btn-copy">Copiar</button>
+    </section>
+  </main>
+
+  <script src="criptador.js"></script>
+  <script src="ocultar.js"></script>
+  <script src="copiar.js"></script>
+
+  <footer class="pie">
+   <p>Proyecto Creado Por: Arturo Eduardo Davila Sanchez</p>
+   <p>email: arteezy.d@gmail.com</p>
+  </footer>
+</body>
+</html>
